@@ -1,0 +1,23 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "Backend structure",
+  "keywords": [
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "tech solutions",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parse": "^0.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
